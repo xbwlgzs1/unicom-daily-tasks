@@ -1,14 +1,3 @@
-# 当前脚本来自于 http://script.345yun.cn 脚本库下载！
-# 当前脚本来自于 http://2.345yun.cn 脚本库下载！
-# 当前脚本来自于 http://2.345yun.cc 脚本库下载！
-# 脚本库官方QQ群1群: 429274456
-# 脚本库官方QQ群2群: 1077801222
-# 脚本库官方QQ群3群: 433030897
-# 脚本库中的所有脚本文件均来自热心网友上传和互联网收集。
-# 脚本库仅提供文件上传和下载服务，不提供脚本文件的审核。
-# 您在使用脚本库下载的脚本时自行检查判断风险。
-# 所涉及到的 账号安全、数据泄露、设备故障、软件违规封禁、财产损失等问题及法律风险，与脚本库无关！均由开发者、上传者、使用者自行承担。
-
 # -*- coding: utf-8 -*-
 """
 中国联通 Python 版 v1.2.1
@@ -91,8 +80,6 @@ v1.1.1:
 0 58 9 * * 5   (安徽超级星期五: 需设置 UNICOM_AH_FRIDAY_AMOUNT，每周五9:58启动)
 0 7,20 * * *   (推荐：每天早晚7点/20点各跑一次，覆盖绝大部分签到任务)
 
-From: YaoHuo8648
-Email: zheyizzf@188.com
 Update: 2026.10.02
 """
 import os
@@ -3385,23 +3372,23 @@ class UserService:
         url = "https://uca.wo116114.com/sjgj/woAssistant/umm/configs/v1/config?product_line=uasp&entry_point=h5&entry_point_id=wxdefbc1986dc757a6"
         self.sec_uca_post(url, {
             "productId": "91242950", "operationType": 1, "type": 1,
-            "contents": [{"checked": True, "configTime": None, "nickname": None, "contentTag": "疑似诈骗", "content": "13088330789"}]
+            "contents": [{"checked": True, "configTime": None, "nickname": None, "contentTag": "疑似诈骗", "content": "13800000000"}]
         })
         time.sleep(2)
         self.sec_uca_post(url, {
             "productId": "91242950", "blacklistSource": 0, "type": 1, "operationType": 0,
-            "contents": [{"contentTag": "疑似诈骗", "content": "13088330789"}]
+            "contents": [{"contentTag": "疑似诈骗", "content": "13800000000"}]
         })
 
     def markPhoneNumber_sec(self):
         url = "https://uca.wo116114.com/sjgj/unicomAssistant/uasp/configs/v1/addressBook/saveTagPhone?product_line=uasp&entry_point=h5&entry_point_id=wxdefbc1986dc757a6"
-        self.sec_uca_post(url, {"productId": "91311616", "status": 0, "tagIds": [26], "tagPhoneNo": "13088330789"})
+        self.sec_uca_post(url, {"productId": "91311616", "status": 0, "tagIds": [26], "tagPhoneNo": "13800000000"})
 
     def syncAddressBook_sec(self):
         url = "https://uca.wo116114.com/sjgj/unicomAssistant/uasp/configs/v1/addressBookBatchConfig?product_line=uasp&entry_point=h5&entry_point_id=edop_unicom_3a6cc75a"
         self.sec_uca_post(url, {
             "opType": "1", "productId": "91311616",
-            "addressBookDTOList": [{"addressBookName": "可乐", "addressBookPhoneNo": "13105750575"}]
+            "addressBookDTOList": [{"addressBookName": "测试联系人", "addressBookPhoneNo": "13800000001"}]
         })
 
     def setInterceptionRules_sec(self):
@@ -7493,18 +7480,3 @@ def main():
     do_notify(users)
 if __name__ == "__main__":
     main()
-
-
-
-
-
-# 当前脚本来自于 http://script.345yun.cn 脚本库下载！
-# 当前脚本来自于 http://2.345yun.cn 脚本库下载！
-# 当前脚本来自于 http://2.345yun.cc 脚本库下载！
-# 脚本库官方QQ群1群: 429274456
-# 脚本库官方QQ群2群: 1077801222
-# 脚本库官方QQ群3群: 433030897
-# 脚本库中的所有脚本文件均来自热心网友上传和互联网收集。
-# 脚本库仅提供文件上传和下载服务，不提供脚本文件的审核。
-# 您在使用脚本库下载的脚本时自行检查判断风险。
-# 所涉及到的 账号安全、数据泄露、设备故障、软件违规封禁、财产损失等问题及法律风险，与脚本库无关！均由开发者、上传者、使用者自行承担。
