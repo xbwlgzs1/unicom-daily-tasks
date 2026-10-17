@@ -1,0 +1,51 @@
+# 凭证与敏感数据 —— 绝不提交
+*.creds.json
+unicom_sms_creds.json
+unicom_cookie_line.txt
+unicom_token_cache.json
+unicom_qr_creds.json
+unicom_prize_cache.json
+unicom_sms_ready.flag
+kugou_creds.json
+kugou_cookie_line.txt
+kugou_qr_state.json
+qq-bridge/config.json
+.credentials.yaml
+*.credentials*
+
+# 登录/会话状态
+sms_login_state.json
+sms_state.json
+qr_state.json
+session_cookies*.json
+face_images/
+
+# 账号与运行数据
+accounts.json
+settings.json
+wins.json
+results.json
+token_cache.json
+run_*.log
+data/
+
+# Python / 构建产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller / 打包产物
+build/
+dist/
+*.spec
+*.manifest
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
